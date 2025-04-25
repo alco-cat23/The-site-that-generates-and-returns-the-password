@@ -13,7 +13,7 @@ def index():
 
 
 # создание пароля
-letter = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLXCVBNM`,.;"\[]{}!@#$%^&*()_+=-:?><|*/'
+letter = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLXCVBNM,.;"\[]{}!@#$%^&*()_+=-:?><|*/'
 password = ''
 for i in range(12):
     r = random.choice(letter)
